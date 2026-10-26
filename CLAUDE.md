@@ -36,4 +36,4 @@ UI changes were verified by driving /usr/bin/google-chrome with puppeteer-core (
 
 - With very large files the page stays responsive, but rendering thousands of paths in the preview still blocks for ~0.2 s, and memory is the real limit.
 - The 2025 IBGE mesh has no mesoregions (replaced by intermediate/immediate regions), so the ceara-map export takes an optional field as `region`.
-- Not committed yet and no GitHub remote.
+- Repository: github.com/felipehenriquee/shapefile-converter (remote `origin` over SSH).
