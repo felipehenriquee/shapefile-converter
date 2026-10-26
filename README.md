@@ -43,4 +43,6 @@ npm run build      # static site in dist/
 
 The IBGE test uses `../mapa-ceara/CE_Municipios_2025/CE_Municipios_2025.zip` by default; point `IBGE_ZIP` at another file, or it is skipped.
 
-`dist/` is a static site: it can be hosted anywhere (GitHub Pages, Netlify, Vercel) since there is no server.
+`dist/` is a static site with relative paths: it can be hosted anywhere (GitHub Pages, Netlify, Vercel), at any path, since there is no server.
+
+**Live:** https://felipehenriquee.github.io/shapefile-converter/ — every push to `main` is tested, built and published by `.github/workflows/pages.yml`.
